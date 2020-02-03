@@ -1,0 +1,298 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    width:100%;
+}
+.pillit {
+    margin-top:15px;
+    padding-bottom: 10px;
+    
+    padding-top: 10px;
+    
+}
+.loglist {
+    list-style: none;
+}
+.loglist .jbut {
+    background: white;
+    outline: none;
+}
+
+.loglist .jbut h6 {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.loglist .jbut :hover {
+    background: rgb(236, 226, 226);
+    outline: none;
+    text-decoration: none;
+    
+}
+
+
+.loglist .sup {
+
+    line-height: 50px;
+    text-decoration: none;
+    
+}
+
+.loglist .sup h6 {
+    padding: 10px;
+    border: 1px, solid, blue;
+}
+
+.loglist .sup :hover {
+    
+    
+    background: rgb(208, 226, 241);
+    outline-width: 100px;
+    outline-color: blueviolet;
+    text-decoration: none;
+    border: 1px, solid, blue;
+    
+}
+button {
+    outline: 0;
+}
+
+.loglist.sup h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.mwelcome {
+    margin-top:80px;
+}
+
+.welcome {
+    
+    margin-bottom: 90px;
+}
+.jodiv {
+    margin-bottom: 50px;
+
+}
+.post {
+    position: relative;
+    background: rgb(236, 231, 231);
+    width: 100%;
+    min-height: 290px;
+    
+}
+.posthead {
+    color: rgb(139, 35, 35);
+    padding-top:5px;
+    margin-left: 80px;
+    margin-top: 60px;
+    position: relative;
+}
+.postpill {
+    margin-right:60px;
+    margin-top: 120px;
+    border-radius: 100px;
+}
+.postbut {
+    margin: 5, 5, 5, 5:
+}
+
+#jobs {
+
+}
+
+#jobs :active {
+    border-bottom:5px, solid, royalblue;
+    text-decoration: underline;
+}
+
+.job {
+    width:100%;
+    background: rgba(245, 243, 243, 0.438);
+    height:400px;
+    margin-bottom:0;
+    pdding-bottom: 0;
+}
+
+.joblft {
+    padding-top: 80px;
+
+}
+
+.jobrt {
+    position: fixed;
+    padding-top:80px;
+}
+
+.lsvg {
+    height: 400px;
+    width: 400px;
+    padding-top: 140px;
+    margin-left: 120px;
+}
+
+.rsvg {
+    height: 400px;
+    width: 400px;
+    padding-top: 140px;
+    padding-left: 120px;
+
+}
+.findrt {
+    padding-left:80px;
+    overflow: clip;
+    height: 840px;
+    margin-top:100px;
+    
+}
+
+.findlft {
+    height: 700px;
+    width: 600px;
+    max-width: 100%;
+    background: rgb(236, 231, 231);
+    padding-top: 40px;
+    margin-top:140px;
+    
+    position: center;
+    
+
+}
+.findhead {
+    color: rgb(139, 35, 35);
+    padding-top:5px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    margin-left:90px;
+
+}
+
+.findbod {
+    margin-left: 90px;
+}
+
+#joindiv {
+    max-width:360px;
+}
+.jobdiv li {
+    list-style: none;
+    display: inline-block;
+}
+
+.jobdiv li :active {
+    list-style: none;
+    display: inline;
+    text-decoration: underline;
+    text-decoration-color: rgb(60, 150, 253);
+    text-decoration-thickness: 40px;
+    tansition: none;
+    outline:none;
+}
+.buttext {
+    line-height: 50px;
+    
+}
+.flo {
+    float: left;
+}
+
+#pipo {
+    max-width:120px;
+}
+
+.community {
+    margin-top: 100px;
+}
+
+.combed {
+    height: 350px;
+    width: 100px;
+    max-width: 600px;
+    margin-left: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:10;
+    margin-top: -550px;
+    border-radius: 10px;
+}
+.combod {
+    padding-left: 380px;
+    font-size: 10px;
+}
+.comhead {
+    padding-left: 380px;
+    color: rgb(139, 35, 35);
+    padding-top:230px;
+
+}
+
+.comrt {
+    background-color: rgb(211, 216, 228);
+    height: 700px;
+    width: 100%;
+}
+
+.starthd {
+    color: rgba(49, 191, 247, 0.952);
+    padding-top: 150px;
+    padding-left: 80px;
+    margin-bottom: 50px
+
+}
+
+.startpill {
+    padding-left: 190px;
+    margin-top: 1px;
+}
+
+.directories {
+    background: rgb(211, 216, 228);
+    margin-top: 50px;
+}
+
+.dilist ul a li {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+.dilist {
+    padding-top: 30px;
+}
+
+.dilogo {
+    margin-left: 60px;
+    height:25px;
+    Width:90px;
+}
+
+.footlist {
+    max-height: 100px;
+    height: 10px;
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 5px;
+     
+}
+
+.footlist a{
+    list-style: none;
+    display: inline;
+}
+
+.footlist li{
+    display:-webkit-inline-box;
+    padding-left:20px;
+    color: gray;
+}
+.footlogo {
+    height:90px;
+    Width:90px;
+}
+
+@media (max-width=769px)
